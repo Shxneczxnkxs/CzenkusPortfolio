@@ -1,0 +1,205 @@
+* {
+	padding: 0 auto;
+	margin: 0 auto;
+}
+
+.navigation, a{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	background-color: #BDD8CC;
+	font-size: 28px;
+	text-transform: uppercase;
+	color: white;
+	font-family: 'Lato', sans-serif;
+	text-decoration: none;
+}
+
+.navigation a:hover {
+	background-color: white;
+	color: #BDD8CC;
+}
+
+.header {
+	text-align: center;
+	text-transform: uppercase;
+	background-color: rgba(255,255,255,0.25);
+	border: 30px solid #BDD8CC;
+	padding: 30px;
+	border-bottom: 0px;
+}
+
+h2 {
+	font-size: 40px;
+	color: #BDD8CC;
+  font-family: 'Lato', sans-serif;
+	font-weight: 300;
+  letter-spacing: 5px;
+	}
+
+h1 {
+	font-size: 300%;
+	color: #BDD8CC;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  letter-spacing: 5px;
+	}
+
+	h5, hr {
+		font-size: 40px;
+		color: #BDD8CC;
+	  font-family: 'Lato', sans-serif;
+		font-weight: 300;
+	  letter-spacing: 5px;
+		font-weight: bold;
+		}
+
+body, html {
+	height:100%;
+}
+
+.container {
+	background-image: url(https://lh3.googleusercontent.com/2dxMi-o4qNkn_2dKupbB67C-CCVIYwlGLIcX5NwWEWVqAP99XJKvHVOvRkq5S2axehJ4avDJEz9puzzTjHn15wre5Q8qDxB5790n4PIYsL72aO0SrnGgt4bgHAm7csjlzeINzYHLSdhJ8p7oL3sA1sNqAy81OiAo1Fc6bJ_eUtjzmt3a64Iu6E_zVpcXoHfzkxoQeKP516kryDaTr8Z7v7lCebW_ddLqVRyzCEnQgaDgWEJzg1HQNNz9rtCD9xdCaf94MDLbTG-c2BrNvryBFcBSpTS4Y_Zc_9gTrIjqSO0Fh6f0tbVjGVu2gsLdh5Gwa-vm-qVpBcQhts7PjtQIGKWGqowwXXUCQcyOUw7PcYG2uYwdd7_0Us1E6wR3bTSMbF1RGIGLMuzEhpexzu5HGb6STFioj-HgYqqEbuzzmtiSJl0ndku0nfUK5QmMfzHonxhL3JhasKYGTsRPo_K1LaGf0QeJv63dxr6eFYwcNCl_LTPsz8CXa7R0CEI-utRbYDPVaqbefTQuegh7vdCdAI9XHkwS2NvaCFfihb8fLVkdOR7llMvAsu4je37vETUf3LdBGpbBOnYoSW5-cYdgF24G0M7KS3wcE6jFrovV=w2586-h1940-no);
+	height: 100%;
+	background-attachment: fixed;
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	overflow: scroll;
+}
+
+p {
+	display: flex;
+	justify-content: center;
+	background-color: rgba(255,255,255,0.85);
+	text-align: center;
+	border: 30px solid #BDD8CC;
+	font-size: 200%;
+	font-family: 'Raleway', sans-serif;
+	color: #888580;
+	max-width: 80%;
+	margin-top: 30px;
+}
+
+.about {
+	background-color: rgba(255,255,255,0.85);
+	border: 30px solid #BDD8CC;
+	font-size: 200%;
+	font-family: 'Raleway', sans-serif;
+	color: #888580;
+	max-width: 80%;
+	margin-top: 30px;
+	padding: 20px;
+
+
+}
+
+form {
+	background-color: rgba(255,255,255,0.85);
+	border: 30px solid #BDD8CC;
+	font-size: 200%;
+	font-family: 'Raleway', sans-serif;
+	color: #888580;
+	max-width: 80%;
+	margin-top: 30px;
+}
+
+#main {
+	display: flex;
+	flex; 1;
+	flex-direction: column;
+	flex-basis: auto;
+	padding: 10px;
+}
+
+
+#beach, #bike, #trail, #drums, #me, #biking{
+	box-sizing: border-box;
+	border-radius: 50px 20px 50px 20px;
+	border: 30px solid #BDD8CC;
+	max-width: 100%;
+	max-height: 100%;
+	justify-content: space-between;
+}
+
+.photos, .contact {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 30px 1%;
+}
+
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-grow: 1;
+	padding: 1%;
+}
+
+.submit {
+	margin: 20px;
+	border-radius: 50px 20px 50px 20px;
+	border: 5px solid #BDD8CC;
+	background-color: white;
+	font-family: 'Raleway', sans-serif;
+	color: #BDD8CC;
+	padding: 20px;
+	font-size: 36px;
+}
+button:hover {
+text-decoration: underline overline;
+text-decoration-color: #BDD8CC;
+border-radius: 20px 50px 20px 50px;
+}
+
+#insta {
+	display: flex;
+	justify-content: center;
+	font-family: 'Megrim', cursive;
+	font-size: 200%;
+	background-color: rgba(156, 244, 216, .20);
+	text-align: center;
+}
+
+.instagram a:hover{
+	text-decoration: underline overline;
+	}
+
+
+@media screen and (min-width: 760px) {
+
+	#main {
+		display: flex;
+		flex; 1;
+		flex-direction: row;
+		flex-basis: auto;
+		padding: 10px;
+	}
+
+
+	#beach, #bike, #trail, #drums, #me, #biking{
+		box-sizing: border-box;
+		border-radius: 50px 20px 50px 20px;
+		border: 30px solid #BDD8CC;
+		max-width: 33%;
+		max-height: 33%;
+		justify-content: center;
+	}
+
+	.navigation, a{
+		display: flex;
+		flex-direction: row;
+		justify-content:  space-between;
+		align-items: flex-start;
+		background-color: #BDD8CC;
+		font-size: 28px;
+		text-transform: uppercase;
+		color: white;
+		font-family: 'Lato', sans-serif;
+		text-decoration: none;
+	}
+
+}
